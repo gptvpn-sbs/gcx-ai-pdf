@@ -7,11 +7,15 @@ the capabilities the extension might use.
 
 ## Field summary
 
-{
-  // Required
-  "manifest_version": 3,
-  "name": "My Extension",
-  "version": "1.0.1",
+{  
+  // Required  
+  
+  "manifest_version": 3,  
+  
+  "name": "My Extension",  
+  
+  "version": "1.0.1",  
+  
 
   // Recommended
   "action": {...},
