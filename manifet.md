@@ -17,31 +17,54 @@ the capabilities the extension might use.
   "version": "1.0.1",  
   
 
-  // Recommended
-  "action": {...},
-  "default_locale": "en",
-  "description": "A plain text description",
-  "icons": {...},
+  // Recommended  
+  
+  "action": {...},  
+  
+  "default_locale": "en",  
+  
+  "description": "A plain text description",  
+  
+  "icons": {...},  
+  
 
-  // Optional
+  // Optional  
+  
   "author": "developer@example.com",  
   
-  "background": {...},
-  "chrome_settings_overrides": {...},
-  "chrome_url_overrides": {...},
-  "commands": {...},
-  "content_scripts": [{...}],
-  "content_security_policy": {...},
-  "cross_origin_embedder_policy": {...},
-  "cross_origin_opener_policy": {...},
-  "declarative_net_request": {...},
-  "devtools_page": "devtools.html",
-  "event_rules": [{...}],
-  "export": {...},
-  "externally_connectable": {...},
-  "file_browser_handlers": [...],
-  "file_system_provider_capabilities": {...},
-  "homepage_url": "https://path/to/homepage",
+  
+  "background": {...},  
+  
+  "chrome_settings_overrides": {...},  
+  
+  "chrome_url_overrides": {...},  
+  
+  "commands": {...},  
+  
+  "content_scripts": [{...}],  
+  
+  "content_security_policy": {...},  
+  
+  "cross_origin_embedder_policy": {...},  
+  
+  "cross_origin_opener_policy": {...},  
+  
+  "declarative_net_request": {...},  
+  
+  "devtools_page": "devtools.html",  
+  
+  "event_rules": [{...}],  
+  
+  "export": {...},  
+  
+  "externally_connectable": {...},  
+  
+  "file_browser_handlers": [...],  
+  
+  "file_system_provider_capabilities": {...},  
+  
+  "homepage_url": "https:,//path/to/homepage",  
+  
   "host_permissions": [...],
   "import": [{...}],
   "incognito": "spanning, split, or not_allowed",
