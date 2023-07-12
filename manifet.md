@@ -6,6 +6,8 @@ the capabilities the extension might use.
 
 
 ## Field summary
+below is just for quick refrence , for update version look [manifest](https://developer.chrome.com/docs/extensions/mv3/manifest/)  
+
 
 {  
   // Required  
@@ -30,7 +32,7 @@ the capabilities the extension might use.
 
   // Optional  
   
-  "author": "developer@example.com",  
+  "author": "developer@,example.com",  
   
   
   "background": {...},  
@@ -65,29 +67,51 @@ the capabilities the extension might use.
   
   "homepage_url": "https:,//path/to/homepage",  
   
-  "host_permissions": [...],
-  "import": [{...}],
-  "incognito": "spanning, split, or not_allowed",
-  "input_components": [{...}],
-  "key": "publicKey",
-  "minimum_chrome_version": "107",
-  "oauth2": {...},
-  "omnibox": {...},
-  "optional_host_permissions": ["..."],
-  "optional_permissions": ["..."],
-  "options_page": "options.html",
-  "options_ui": {...},
-  "permissions": ["..."],
-  "requirements": {...},
-  "sandbox": {...},
-  "short_name": "Short Name",
-  "side_panel": {...},
-  "storage": {...},
-  "tts_engine": {...},
-  "update_url": "https://path/to/updateInfo.xml",
-  "version_name": "1.0 beta",
-  "web_accessible_resources": [...]
-}   
+  "host_permissions": [...],  
+  
+  "import": [{...}],  
+  "incognito": "spanning, split, or not_allowed",  
+  
+  "input_components": [{...}],  
+  
+  "key": "publicKey",  
+  
+  "minimum_chrome_version": "107",  
+  
+  "oauth2": {...},  
+  
+  "omnibox": {...},  
+  
+  "optional_host_permissions": ["..."],  
+  
+  "optional_permissions": ["..."],  
+  
+  "options_page": "options.html",  
+  
+  "options_ui": {...},  
+  
+  "permissions": ["..."],  
+  
+  "requirements": {...},  
+  
+  "sandbox": {...},  
+  
+  "short_name": "Short Name",  
+  
+  "side_panel": {...},  
+  
+  "storage": {...},  
+  
+  "tts_engine": {...},  
+  
+  "update_url": "https:,//path/to/updateInfo.xml",  
+  
+  "version_name": "1.0 beta",  
+  
+  "web_accessible_resources": [...]  
+  
+}  
+
 
 
 
